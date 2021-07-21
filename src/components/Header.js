@@ -7,7 +7,6 @@ import CoursesLogos from "./CoursesLogos"
 
 const useStyles = makeStyles({
   container: {
-    border: "1px solid red",
     padding: "0 !important",
     margin: "0 !important",
     backgroundColor: "#EEE7E7",
@@ -34,7 +33,7 @@ function Header() {
                 Live coding classes for age 6 -15 to help your child learn to code
               </Typography>
               <Box textAlign="center">
-                <Button size="large" variant="contained" color="primaryOrange" style={{ color: " white ", borderRadius: "10px" }}>
+                <Button size="large" variant="contained" color="primaryOrange" style={{ color: " white ", borderRadius: "10px", textTransform: "none" }}>
                   Join Now
                 </Button>
               </Box>
