@@ -17,7 +17,7 @@ function Navbar() {
   const classes = useStyles()
   return (
     <Box container component={Grid} sx={{ flexGrow: 1 }}>
-      <AppBar position="static" className={classes.root}>
+      <AppBar position="fixed" style={{ top: "0" }} className={classes.root}>
         <Toolbar>
           <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
             Vidyayan
