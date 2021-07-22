@@ -30,7 +30,7 @@ const HowItWorks = () => {
   const matches600 = useMediaQuery("(max-width:600px)")
   const matches900 = useMediaQuery("(max-width:900px)")
   return (
-    <Grid container mt={2} p={4}>
+    <Grid container mt={2} p={matches600 ? 2 : 4} pb={matches600 ? 0 : 2}>
       <Grid item xs={12} mb={3}>
         <Typography variant="h5" color="initial" fontWeight="600" textAlign="center" color="#590BB2">
           How it Works
