@@ -1,5 +1,4 @@
-import { red } from "@material-ui/core/colors"
-import React, { useEffect } from "react"
+import React from "react"
 
 function HeaderSVG(props) {
   return (

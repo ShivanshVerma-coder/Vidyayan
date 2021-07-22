@@ -1,8 +1,7 @@
 import React from "react"
-import { Typography, Grid, Button, useMediaQuery } from "@material-ui/core"
+import { Grid, Button, useMediaQuery } from "@material-ui/core"
 import { makeStyles } from "@material-ui/styles"
 import banner2 from "./images/banner2.svg"
-const useStyles = makeStyles({})
 
 const Banner1 = () => {
   const matches700 = useMediaQuery("(max-width:700px)")

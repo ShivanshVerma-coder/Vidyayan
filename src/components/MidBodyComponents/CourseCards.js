@@ -1,6 +1,6 @@
 import React from "react"
 import { useTheme } from "@material-ui/core/styles"
-import { Container, Grid, Typography, Button, Box, Paper, MobileStepper, useMediaQuery } from "@material-ui/core"
+import { Grid, Button, Box, MobileStepper, useMediaQuery } from "@material-ui/core"
 import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft"
 import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight"
 import { makeStyles } from "@material-ui/styles"

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import WhyCoding from "./MidBodyComponents/WhyCoding"
 import CourseCards from "./MidBodyComponents/CourseCards.js"
 import Banner1 from "./MidBodyComponents/Banner1.js"
