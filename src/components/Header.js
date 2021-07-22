@@ -8,6 +8,7 @@ import CoursesLogos from "./CoursesLogos"
 const useStyles = makeStyles({
   container: {
     padding: "0 !important",
+    paddingBottom: "25px !important",
     margin: "0 !important",
     backgroundColor: "#EEE7E7",
   },

@@ -83,7 +83,7 @@ const WhyCoding = () => {
 
   /*Render below*/
   return (
-    <Container maxWidth={false} mb={4} sx={{ backgroundColor: "white" }}>
+    <Grid maxWidth={false} mb={2} pb={6} sx={{ backgroundColor: "white" }}>
       <Grid container>
         <Grid item xs={12} textAlign="center" mt={4} mb={2}>
           <Typography variant="h4" fontWeight="500" className={classes.orange}>
@@ -146,7 +146,7 @@ const WhyCoding = () => {
           </Button>
         </Grid>
       </Grid>
-    </Container>
+    </Grid>
   )
 }
 
