@@ -1,7 +1,7 @@
 import React from "react"
 import { Box, Button, Container, Grid, Typography, useMediaQuery } from "@material-ui/core"
 import { makeStyles } from "@material-ui/styles"
-import WhyCodingSVG from "./WhyCodingSVG"
+import whycodingsvg from "./images/whycoding.svg"
 
 const useStyles = makeStyles({
   orange: {
@@ -83,7 +83,7 @@ const WhyCoding = () => {
 
   /*Render below*/
   return (
-    <Container maxWidth={false} mb={4}>
+    <Container maxWidth={false} mb={4} sx={{ backgroundColor: "white" }}>
       <Grid container>
         <Grid item xs={12} textAlign="center" mt={4} mb={2}>
           <Typography variant="h4" fontWeight="500" className={classes.orange}>
@@ -117,7 +117,7 @@ const WhyCoding = () => {
             })}
           </Grid>
           <Grid xs={12} md={4} lg={4} item textAlign="center">
-            <WhyCodingSVG />
+            <img src={whycodingsvg} />
           </Grid>
           <Grid xs={12} md={4} lg={3} item textAlign="center" sx={{ display: "flex", flexDirection: "column", justifyContent: "space-evenly" }}>
             {rightColData.map((data, index) => {
@@ -140,7 +140,7 @@ const WhyCoding = () => {
           </Grid>
           <Grid md={0} lg={1} item></Grid>
         </Grid>
-        <Grid xs={12} item textAlign="center" mt={matches900 ? -1 : -5}>
+        <Grid xs={12} item textAlign="center" mt={matches900 ? -1 : -5} mb={4}>
           <Button size="large" variant="contained" color="primaryOrange" style={{ color: " white ", borderRadius: "10px", textTransform: "none" }}>
             Book a free class
           </Button>

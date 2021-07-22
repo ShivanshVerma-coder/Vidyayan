@@ -8,13 +8,13 @@ import { Box } from "@material-ui/core"
 
 function MidBody() {
   return (
-    <>
+    <Box sx={{ backgroundColor: "#EEE7E7" }}>
       <WhyCoding />
       <CourseCards />
       <Banner1 />
       <LearningPath />
       <HowItWorks />
-    </>
+    </Box>
   )
 }
 
