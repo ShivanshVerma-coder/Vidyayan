@@ -7,7 +7,7 @@ const Banner1 = () => {
   const matches700 = useMediaQuery("(max-width:700px)")
   const matches376 = useMediaQuery("(max-width:376px)")
   return (
-    <Grid container mb={3}>
+    <Grid container pb={3}>
       <Grid item xs={12} textAlign="center">
         <Button elevation={0} disableRipple>
           <img src={banner2} alt="" width={matches700 ? (matches376 ? "300" : "361") : "691"} />
