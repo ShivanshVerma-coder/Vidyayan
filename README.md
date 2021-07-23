@@ -2,6 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deployment
+
+This website is deployed on https://vidyayan-byshivansh.herokuapp.com/
+
+## Other Details
+
+>The website is exactly similar to the design given in Figma. 
+
+ >The website is completely tested for responsiveness for mobile as well as desktop. 
+
+ >As said in instructions, I have used only SVGs for the whole website. 
+
+>The Code I have written is in Industrial-Format, clean, precise as well as all the files are structured and are kept organized for implementing future updates easily.
+
+ >The complete structure of website is based upon famous ReactJS library -> Material-UI.
+
+>The app I have used for deployment is Heroku.
+
+ Please Note:- The app might take upto 60seconds to load at first, not because of any fault or large size of App but because heroku works this way. It deactivates the website if it has been inactive for more than 30minutes. Once the site is opened it will open very quickly as it should until it has been inactive for more than 30minutes.
+ 
 ## Available Scripts
 
 In the project directory, you can run:
